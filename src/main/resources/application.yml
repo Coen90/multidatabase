@@ -1,0 +1,19 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+  jpa:
+    hibernate:
+      ddl-auto: update
+  db1:
+    datasource:
+      jdbc-url: jdbc:mysql://localhost:13306/testdb
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: password
+  db2:
+    datasource:
+      jdbc-url: jdbc:mysql://localhost:23306/testdb2
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: password
